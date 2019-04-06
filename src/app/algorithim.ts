@@ -45,7 +45,7 @@ function getEmotion(h,a,s,f){
       return 2
     }
     else{
-      return 3
+      return 7
     }
   }
   else if(s>70){
@@ -70,65 +70,65 @@ function getEmotion(h,a,s,f){
 function switchStatement(){
   switch(getEmotion(userh,usera,users,userf)) { 
     case 0: { 
-        emotion = 'unknown'
+        return 'Unknown'
         break; 
     } 
     case 1: { 
-        //statements; 
+        return 'Overwhlemed' 
         break; 
     }
     case 2: { 
-        emotion = 'unknown'
+        return 'Confused'
         break; 
     }
     case 3: { 
-        emotion = 'unknown'
+        return 'Confused'
         break; 
     }
     case 4: { 
-        emotion = 'unknown'
+        return 'Happy'
         break; 
     }
     case 5: { 
-        emotion = 'unknown'
+        return 'Despair'
         break; 
     }
     case 6: { 
-        emotion = 'unknown'
+        return 'Bitter'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 7: { 
+        return 'Angry'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 8: { 
+        return 'Anxious'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 9: { 
+        return 'Sad'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 10: { 
+        return 'Afraid'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 11: { 
+        return 'Depressed'
         break; 
     } 
-    case 0: { 
-        emotion = 'unknown'
+    case 12: { 
+        return 'Worried'
         break; 
     } 
     default: { 
-        //statements; 
+        return 'OOOOOPS'
         break; 
     } 
   } 
 }
-emotion = {1:'Overwhlemed', 2: 'confused', 3:'confused', 4:'happy', 5: 'despair', 6:'bitter',7:'angry',8: 'anxious', 9: 'sad', 10:'afraid', 11:'depressed',12: 'worried', 0: 'unknown'}
 
-userEmo = getEmotion(happy, angry, sad, fearful)
-print("\nMood:"+emotion[userEmo])
+
+//userEmo = getEmotion(happy, angry, sad, fearful)
+//print("\nMood:"+emotion[userEmo])
 
