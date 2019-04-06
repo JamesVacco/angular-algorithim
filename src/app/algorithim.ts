@@ -68,64 +68,64 @@ function getEmotion(h,a,s,f){
 }
 
 function switchStatement(){
-switch(getEmotion(userh,usera,users,userf)) { 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 1: { 
-      //statements; 
-      break; 
-   }
-   case 2: { 
-      emotion = 'unknown'
-      break; 
-   }
-   case 3: { 
-      emotion = 'unknown'
-      break; 
-   }
-   case 4: { 
-      emotion = 'unknown'
-      break; 
-   }
-   case 5: { 
-      emotion = 'unknown'
-      break; 
-   }
-   case 6: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   case 0: { 
-      emotion = 'unknown'
-      break; 
-   } 
-   default: { 
-      //statements; 
-      break; 
-   } 
-} 
+  switch(getEmotion(userh,usera,users,userf)) { 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 1: { 
+        //statements; 
+        break; 
+    }
+    case 2: { 
+        emotion = 'unknown'
+        break; 
+    }
+    case 3: { 
+        emotion = 'unknown'
+        break; 
+    }
+    case 4: { 
+        emotion = 'unknown'
+        break; 
+    }
+    case 5: { 
+        emotion = 'unknown'
+        break; 
+    }
+    case 6: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    case 0: { 
+        emotion = 'unknown'
+        break; 
+    } 
+    default: { 
+        //statements; 
+        break; 
+    } 
+  } 
 }
 emotion = {1:'Overwhlemed', 2: 'confused', 3:'confused', 4:'happy', 5: 'despair', 6:'bitter',7:'angry',8: 'anxious', 9: 'sad', 10:'afraid', 11:'depressed',12: 'worried', 0: 'unknown'}
 
